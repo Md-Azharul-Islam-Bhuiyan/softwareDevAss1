@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Assignment 1</title>
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <nav class="nav_sec navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand text-white col-lg-4 w-25" href="#"
+            ><img class="logo" src="./assets/Group 2.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon navbar-dark"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form
+              class="d-flex justify-content-center col-lg-6 col-sm-4"
+              role="search"
+            >
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  ><i class="fa-solid fa-cart-shopping"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  ><i class="fa-regular fa-user"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- banner -->
+      <section
+        class="Banner_container"
+      >
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="row align-items-center text-center m-auto">
+                <div class="carousel_left col-12 col-lg-6">
+                  <h5 class="cf_color">Pro.Beyond</h5>
+                  <h1>Iphone <b>15 Pro</b></h1>
+                  <p>
+                    Created to change everything for the better. For everyone
+                  </p>
+                  <button class="shop_btn">Shop Now</button>
+                </div>
+                <div class="carousel_right col-12 col-lg-6">
+                  <img
+                    class="w-25"
+                    src="./assets/Iphone Image.png"
+                    class="d-block"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <div class="row align-items-center text-center m-auto">
+                <div class="carousel_left col-12 col-lg-6">
+                  <h5 class="cf_color">Pro.Beyond</h5>
+                  <h1>Iphone <b>14 Pro</b></h1>
+                  <p>
+                    Created to change everything for the better. For everyone
+                  </p>
+                  <button class="shop_btn">Shop Now</button>
+                </div>
+                <div class="carousel_right col-12 col-lg-6">
+                  <img
+                    class="w-50"
+                    src="./assets/Iphone 14 pro 1-2.png"
+                    class="d-block"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <div class="row align-items-center text-center m-auto">
+                <div class="carousel_left col-12 col-lg-6">
+                  <h5 class="cf_color">Pro.Beyond</h5>
+                  <h1>Apple <b>Watch SE</b></h1>
+                  <p>
+                    Created to change everything for the better. For everyone
+                  </p>
+                  <button class="shop_btn">Shop Now</button>
+                </div>
+                <div class="carousel_right col-12 col-lg-6">
+                  <img
+                    class="w-50"
+                    src="./assets/Iphone 14 pro 1-1.png"
+                    class="d-block"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="feature_container  h-auto">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="col-12">
+              <div class="feature_card d-flex overflow-hidden">
+                <img class="feature_img col-6" src="./assets/ipad.png" alt="" />
+                <div class="card_text col-6">
+                  <h3>Ipad 9</h3>
+                  <p>
+                    Unleash the full potential of your creativity with the Apple
+                    iPad 9th Generation, now available in Bangladesh! With its
+                    powerful A13 Bionic chip
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div
+                class="feature_card bg-primary-subtle d-flex gap-4 overflow-hidden"
+              >
+                <img
+                  class="img-fluid col-6"
+                  src="./assets/hero__gnfk5g59t0qe_xlarge_2x 1.png"
+                  alt=""
+                />
+                <div class="card_text col-6">
+                  <h3>Apple Airpods Max</h3>
+                  <p>
+                    Introducing AirPods Max — a perfect balance of exhilarating
+                    high-fidelity audio and the effortless magic of AirPods.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div
+              class="feature_card d-flex align-items-center justify-content-between overflow-hidden"
+              style="height: 400px; background: #ededed"
+            >
+              <div class="card_text">
+                <h2
+                  style="
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 300;
+                  "
+                >
+                  Macbook <b style="font-weight: 700">Air</b>
+                </h2>
+                <p>
+                  Our most popular laptop, MacBook Air is supercharged by M1 and
+                  M2 chips. Featuring FaceTime HD camera, Touch ID, and vibrant
+                  Retina display.
+                </p>
+                <button class="shop_btn">Shop Now</button>
+              </div>
+              <img class="img-fluid" src="./assets/Group 6.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="category_container h-auto">
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="category_heading d-flex align-items-center justify-content-between w-75 m-auto"
+            >
+              <h6>Browse By Category</h6>
+              <div class="category_next d-flex">
+                <h6 class="px-2"><i class="fa-solid fa-angle-left"></i></h6>
+                <h6><i class="fa-solid fa-angle-right"></i></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row gap-2 m-auto">
+          <div class="col">
+            <div class="category_card text-center">
+              <img class="category_icon" src="./icons/phone.png" alt="" />
+              <h6 class="category_name pt-3">Phones</h6>
+            </div>
+          </div>
+          <div class="col">
+            <div class="category_card text-center">
+              <img class="category_icon" src="./icons/smartwatch.png" alt="" />
+              <h6 class="category_name pt-3">Smart Watches</h6>
+            </div>
+          </div>
+          <div class="col">
+            <div class="category_card text-center">
+              <img class="category_icon" src="./icons/camera.png" alt="" />
+              <h6 class="category_name pt-3">Cameras</h6>
+            </div>
+          </div>
+          <div class="col">
+            <div class="category_card text-center">
+              <img class="category_icon" src="./icons/headphones.png" alt="" />
+              <h6 class="category_name pt-3">Headphones</h6>
+            </div>
+          </div>
+          <div class="col">
+            <div class="category_card text-center">
+              <img class="category_icon" src="./icons/monitor.png" alt="" />
+              <h6 class="category_name pt-3">Computers</h6>
+            </div>
+          </div>
+          <div class="col">
+            <div class="category_card text-center">
+              <img class="category_icon" src="./icons/console.png" alt="" />
+              <h6 class="category_name pt-3">Gaming</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product_container h-auto">
+        <div class="row">
+          <div class="product_type d-flex gap-3 w-75 pb-3 pt-4 m-auto">
+            <h6 style="text-decoration: underline">New Arrival</h6>
+            <h6 style="color: #8b8b8b">Best Sellers</h6>
+            <h6 style="color: #8b8b8b">Feature Products</h6>
+          </div>
+        </div>
+
+        <div class="row gap-2 m-auto">
+          <div class="col">
+            <div class="product_card">
+              <p class="text-end">
+                <i class="fa-regular fa-heart" style="color: #8b8b8b"></i>
+              </p>
+              <img
+                class="product_img"
+                src="./assets/Iphone 14 pro 1-2.png"
+                alt=""
+              />
+              <p class="pt-2">
+                Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)
+              </p>
+              <h6 class="pb-3">$900</h6>
+              <button class="buy_now">Buy Now</button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product_card">
+              <p class="text-end">
+                <i class="fa-regular fa-heart" style="color: #8b8b8b"></i>
+              </p>
+              <img
+                class="product_img"
+                src="./assets/Iphone 14 pro 1-3.png"
+                alt=""
+              />
+              <p class="pt-2">
+                Blackmagic Cinema Camera 6K features a massive full frame
+                sensor.
+              </p>
+              <h6 class="pb-3">$2535</h6>
+              <button class="buy_now">Buy Now</button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product_card">
+              <p class="text-end">
+                <i class="fa-solid fa-heart" style="color: red"></i>
+              </p>
+              <img
+                class="product_img"
+                src="./assets/Iphone 14 pro 1-1.png"
+                alt=""
+              />
+              <p class="pt-2">
+                Apple Watch Series 9 GPS 41mm Starlight Aluminium Case
+              </p>
+              <h6 class="pb-3">$399</h6>
+              <button class="buy_now">Buy Now</button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product_card">
+              <p class="text-end">
+                <i class="fa-regular fa-heart" style="color: #8b8b8b"></i>
+              </p>
+              <img
+                class="product_img"
+                src="./assets/Iphone 14 pro 1.png"
+                alt=""
+              />
+              <p class="pt-2">
+                Requires AirPods Max with the latest version of software.
+              </p>
+              <h6 class="pb-3">$549</h6>
+              <button class="buy_now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="offer_container h-auto">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 col-lg-4 overflow-hidden">
+            <img class="w-75" style="width: 80%; height: 100%; transform: scaleX(-1);" src="./assets/image 19.png" alt="" />
+          </div>
+          <div class="col-12 col-lg-4">
+            <h2 style="font-size: 48px">
+              <b style="color: #25177b">11.11 </b><b class="text-white">Sale</b>
+            </h2>
+            <p style="font-size: 14px">
+              Get Amazing Discounts, 0% EMI, Cash on Delivery of 20+ Million
+              Products
+            </p>
+          </div>
+          <div class="col-12 col-lg-4 overflow-hidden">
+            <img class="w-auto h-auto"  style="width: 170%; height: 100%; transform: scaleX(-1);" src="./assets/ipad1.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer_container d-lg-flex align-items-lg-center h-sm-auto">
+       <div class="row text-center text-lg-start gap-3 gap-lg-0">
+          <div class="col-12 col-lg-3">
+            <img class="footer_logo" src="./assets/Group 2.png" alt="" />
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="footer_icon d-flex justify-content-center gap-4">
+              <i class="fa-brands fa-twitter" style="color: white"></i>
+              <i class="fa-brands fa-facebook-f" style="color: white"></i>
+              <i class="fa-brands fa-tiktok" style="color: white"></i>
+              <i class="fa-brands fa-instagram" style="color: white"></i>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="services" style="list-style: none">
+              <h6 style="color: #6e6d6d">Services</h6>
+              <li>Bonus program</li>
+              <li>Gift cards</li>
+              <li>Credit and payment</li>
+              <li>Services contracts</li>
+              <li>Non-cash account</li>
+              <li>Payment</li>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="assistanceBuyer" style="list-style: none">
+              <h6 style="color: #6e6d6d">Assistance to the buyer</h6>
+              <li>Find an order</li>
+              <li>Terms of delivery</li>
+              <li>Exchange and return of goods</li>
+              <li>Guarantee</li>
+              <li>Frequently asked questions</li>
+              <li>Terms of use of the site</li>
+            </div>
+          </div>
+       </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
